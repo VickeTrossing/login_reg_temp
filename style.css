@@ -1,0 +1,233 @@
+body{
+    /* color: rgb(92, 108, 253); */
+    color:rgb(132, 139, 163);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.outer-container{
+    max-width: 600px;
+    max-height: 620px;
+    min-height: 100px;   
+    margin:auto;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-shadow: 0 20px 42px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );
+}
+
+.container{
+    max-width: 100%;
+    height: auto;
+    min-height: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    background: rgb(48, 51, 65);
+
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin: auto;
+}
+
+
+
+
+/* ------------------------------ HEADER CONTENT ------------------------------ */
+
+
+.header-content{
+    text-align: center;
+}
+
+#img-container{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-top: 100px;
+    text-align: center;
+    background-color:#14C2CC;
+    background-image: 
+    radial-gradient(circle farthest-side at top right, transparent, #0D64FF), radial-gradient(ellipse farthest-corner at 0% 100%, transparent, #FF00A0);
+    animation:bg-change 4s infinite;
+
+}
+
+@keyframes bg-change {
+    0%, 100% {
+        filter:hue-rotate(0deg);
+    }
+    50% {
+        filter:hue-rotate(-45deg);
+    }
+}
+
+#logo{
+    text-align: center;
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );
+    background-color: transparent;
+    width: 600px;
+    min-width: 100px;
+    
+}
+
+#header-text{
+    font-size: 50px;
+    font-weight:400;
+   }
+
+
+#header-text{
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+}
+
+
+
+
+/* ------------------------------ INPUT CONTENT ------------------------------ */
+
+
+.inner-container{
+    padding: 10px;
+    margin: 10px;
+}
+
+#bankid-container{
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+}
+
+.bank-logo{
+    width: 10%;
+    margin: 7px;
+}
+
+#bank-button{
+    text-align: center;
+    width: 90%;
+}
+
+hr{
+    color:rgba(92, 108, 253, 0.473);
+}
+
+.input-content{
+    color: white;
+    background: rgb(71, 74, 85);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 37px;
+}
+
+.forgot-text{
+    font-size: smaller;
+    text-align: center;
+}
+
+a:link{
+    text-decoration: none;
+    color:rgb(92, 108, 253);
+}
+
+a:visited{
+    color:rgb(92, 108, 253);
+}
+
+
+
+
+/* ------------------------------ BUTTON CONTENT ------------------------------ */
+
+
+
+.button-container{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.button-content{
+    font-weight: bold;
+    width: 240px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    color:white;
+    background-color: rgb(92, 108, 253);
+}
+
+#reg-button{
+    font-weight: bold;
+    width: 500px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    color:white;
+    background-color: rgb(92, 108, 253);
+}
+
+
+
+
+
+/* ------------------------------ REGISTRATION CONTENT ------------------------------ */
+
+
+.country-text{
+    padding-left: 21px;
+    font-size: 15px;
+    }
+
+.country-content{
+    margin-left: 20px;
+    margin-bottom: 25px;
+    width: 92%;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    color:white;
+    background-color: rgb(71, 74, 85);
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+
+    background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+    background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+    background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+.checkbox{
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.check-conditions{
+    margin: 20px;
+    font-size: 10px;
+}
+
+.bottom-text{
+    text-align: center;
+    color: rgb(71, 74, 85) !important;
+}
